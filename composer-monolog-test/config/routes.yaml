@@ -1,0 +1,15 @@
+index:
+  path: /
+  controller: App\Controller\DefaultController::index
+
+debug:
+  path: /info
+  controller: App\Controller\InfoController::index
+
+warning:
+  path: /warning
+  controller: App\Controller\WarningController::index
+
+error:
+  path: /error
+  controller: App\Controller\ErrorController::index
